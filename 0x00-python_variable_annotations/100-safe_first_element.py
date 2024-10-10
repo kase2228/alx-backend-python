@@ -9,6 +9,7 @@ the first element of a sequence or None if the sequence is empty.
 
 from typing import Sequence, Any, Union
 
+
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     Returns the first element of a sequence or None if the sequence is empty.
@@ -18,7 +19,7 @@ def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
 
     Returns:
     Union[Any, None]: The first element of the sequence or None if the sequence is empty.
-    
+
     Example:
     >>> safe_first_element([1, 2, 3])
     1
