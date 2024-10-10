@@ -7,6 +7,7 @@ floor.py
 Module for computing the floor of a float.
 """
 
+
 def floor(n: float) -> int:
     """
     Returns the largest integer less than or equal to n.
@@ -16,7 +17,7 @@ def floor(n: float) -> int:
 
     Returns:
     int: The floored integer value.
-    
+
     Example:
     >>> floor(3.7)
     3

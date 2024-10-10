@@ -5,6 +5,7 @@ to_str.py
 Module for converting float to string.
 """
 
+
 def to_str(n: float) -> str:
     """
     Returns the string representation of the float n.

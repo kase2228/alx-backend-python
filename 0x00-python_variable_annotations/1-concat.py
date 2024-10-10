@@ -5,6 +5,7 @@ concat.py
 This module provides a simple function to concatenate two strings.
 """
 
+
 def concat(str1: str, str2: str) -> str:
     """
     Concatenates two strings and returns the result.
@@ -15,7 +16,7 @@ def concat(str1: str, str2: str) -> str:
 
     Returns:
     str: The concatenated result of str1 and str2.
-    
+
     Example:
     >>> concat("Hello, ", "World!")
     'Hello, World!'
