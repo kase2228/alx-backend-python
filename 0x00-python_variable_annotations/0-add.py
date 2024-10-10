@@ -5,6 +5,7 @@
 This module provides a simple function for adding two floating-point numbers.
 """
 
+
 def add(a: float, b: float) -> float:
     """
     Adds two floating-point numbers and returns the result.
@@ -15,7 +16,7 @@ def add(a: float, b: float) -> float:
 
     Returns:
     float: The sum of the two numbers.
-    
+
     Example:
     >>> add(2.5, 3.1)
     5.6
