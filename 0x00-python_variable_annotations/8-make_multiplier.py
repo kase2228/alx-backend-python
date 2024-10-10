@@ -9,6 +9,7 @@ returns a function that multiplies a float by a specified multiplier.
 
 from typing import Callable
 
+
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     Returns a function that multiplies a float by the given multiplier.
@@ -27,5 +28,5 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     def multiplier_function(value: float) -> float:
         return multiplier * value
-    
+
     return multiplier_function
