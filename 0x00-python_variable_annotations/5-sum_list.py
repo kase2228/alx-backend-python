@@ -2,9 +2,10 @@
 """
 sum_list.py
 
-Modlue that returns the sum of provided list of floats as a float.
+Module for summing a list of floats. The `sum_list` function takes a list 
+of float numbers as input and returns their total sum as a float, returning 
+0.0 for empty lists.
 """
-
 
 def sum_list(input_list: list[float]) -> float:
     """
@@ -15,7 +16,7 @@ def sum_list(input_list: list[float]) -> float:
 
     Returns:
     float: The sum of the float numbers in the input list.
-
+    
     Example:
     >>> sum_list([1.1, 2.2, 3.3])
     6.6
