@@ -10,6 +10,7 @@ and the square of the number.
 
 from typing import Union, Tuple
 
+
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Converts a string and a number into a tuple.
@@ -20,7 +21,7 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
 
     Returns:
     Tuple[str, float]: A tuple containing the string k and the square of v.
-    
+
     Example:
     >>> to_kv("eggs", 3)
     ('eggs', 9)
