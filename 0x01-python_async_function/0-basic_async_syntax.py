@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """
-This module contains an asynchronous function `wait_random` that waits for a random
-delay between 0 and `max_delay` seconds, and then returns the delay.
+This module contains an asynchronous function 
+`wait_random` that waits for a random
+delay between 0 and `max_delay` seconds, 
+and then returns the delay.
 
-The script demonstrates how to use asynchronous programming in Python with asyncio
-to introduce delays and handle concurrent tasks effectively.
+The script demonstrates how to use 
+asynchronous programming in Python with asyncio
+to introduce delays and handle 
+concurrent tasks effectively.
 """
 
 import asyncio
@@ -13,15 +17,20 @@ import random
 
 async def wait_random(max_delay=10.0):
     """
-    Asynchronous function that waits for a random delay and returns the delay.
+    Asynchronous function that waits for a 
+    random delay and returns the delay.
 
-    This function generates a random float number between 0 and `max_delay` (inclusive),
-    pauses for that amount of time using `asyncio.sleep`, and then returns the duration
-    of the delay. The delay simulates an I/O-bound operation or a task that takes time
+    This function generates a random float number 
+    between 0 and `max_delay` (inclusive),
+    pauses for that amount of time using `asyncio.sleep`, 
+    and then returns the duration
+    of the delay. The delay simulates an I/O-bound 
+    operation or a task that takes time
     to complete.
 
     Args:
-        max_delay (float, optional): The maximum delay time in seconds. Defaults to 10.0.
+        max_delay (float, optional): 
+        The maximum delay time in seconds. Defaults to 10.0.
 
     Returns:
         float: The random delay duration in seconds.
