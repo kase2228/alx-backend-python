@@ -10,13 +10,14 @@ to introduce delays and handle concurrent tasks effectively.
 import asyncio
 import random
 
+
 async def wait_random(max_delay=10.0):
     """
     Asynchronous function that waits for a random delay and returns the delay.
 
-    This function generates a random float number between 0 and `max_delay` (inclusive), 
-    pauses for that amount of time using `asyncio.sleep`, and then returns the duration 
-    of the delay. The delay simulates an I/O-bound operation or a task that takes time 
+    This function generates a random float number between 0 and `max_delay` (inclusive),
+    pauses for that amount of time using `asyncio.sleep`, and then returns the duration
+    of the delay. The delay simulates an I/O-bound operation or a task that takes time
     to complete.
 
     Args:
@@ -24,7 +25,7 @@ async def wait_random(max_delay=10.0):
 
     Returns:
         float: The random delay duration in seconds.
-    
+
     Example:
         >>> delay = await wait_random(5)
         >>> print(delay)
